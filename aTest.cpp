@@ -11,6 +11,7 @@ Sweeper sweeper2(SWEEPER_INTERVAL2);
 
 void setup()
 {
+	//Erik - 8/15/2017 Changed Pin for Sweeper
 	sweeper1.Attach(9);
 	sweeper2.Attach(10);
 
